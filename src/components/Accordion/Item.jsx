@@ -8,13 +8,12 @@ export default function Item({ name, id, child, active, toggle, children }) {
   const [Height, setHeight] = useState(() => 0);
 
   function calcHeight(e) {
-    console.log(e);
     console.log(e.offsetHeight);
     setHeight(e.offsetHeight);
   }
   return (
     <div className="bg-white border border-gray-300 overflow-hidden">
-      <div className="meta pl-4 py-2 relative flex justify-between items-between">
+      <div className="meta pl-4 py-2 relative flex justify-between items-center">
         <span className="text-gray-600">{name}</span>
         <button
           className="link-wrapped pr-5 focus:outline-none"
