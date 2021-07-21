@@ -1,0 +1,3 @@
+NEXT_PUBLIC_BASE_URL=https://micro-fathur.vercel.app
+NEXT_PUBLIC_MEMBERPAGE_URL=https://class-micro-fathur.netlify.app
+NEXT_PUBLIC_API_HOST=https://api.bwamicro.com
